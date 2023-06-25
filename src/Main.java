@@ -43,21 +43,21 @@ public class Main {
                 .allMatch(user -> user.getAge() > 18);
 
         // Output
-        System.out.println("--- Sorted by age: ---");
+        System.out.println("--- Sorted by age ---");
         for(User item : sortedByAge) {
             System.out.println(item.getAge() + " " + item.getFirstName() + " " + item.getSecondName());
         }
         System.out.println();
-        System.out.println("--- Average age: ---\n"  + averageAge);
+        System.out.println("--- Average age ---\n"  + averageAge);
         System.out.println();
-        System.out.println("--- Sorted by first name and age: ---");
+        System.out.println("--- Sorted by first name and age ---");
         for(User item : sortedByFirstNameAndAge) {
             System.out.println(item.getFirstName() + " " + item.getAge());
         }
         System.out.println();
-        System.out.println("--- Users with S or A: ---\n" + hasUsersWithSOrA);
+        System.out.println("--- Users with S or A ---\n" + hasUsersWithSOrA);
         System.out.println();
-        System.out.println("--- Users over 18: ---\n" + usersOver18);
+        System.out.println("--- Users over 18 ---\n" + usersOver18);
 
     }
 }
