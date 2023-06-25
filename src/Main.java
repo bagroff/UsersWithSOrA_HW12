@@ -45,7 +45,7 @@ public class Main {
         // Output
         System.out.println("--- Sorted by age: ---");
         for(User item : sortedByAge) {
-            System.out.println(item.getFirstName() + " " + item.getSecondName() + " " + item.getAge());
+            System.out.println(item.getAge() + " " + item.getFirstName() + " " + item.getSecondName());
         }
         System.out.println();
         System.out.println("--- Average age: ---\n"  + averageAge);
